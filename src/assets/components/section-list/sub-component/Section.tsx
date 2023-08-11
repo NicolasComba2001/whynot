@@ -15,7 +15,7 @@ export default function Section({titleOfSection, imageOfSection}: PropType){
             borderRadius: '8px'
         }}>
             <article style={{position: "absolute", bottom: "150px", right: "-50px", transform: "rotate(-90deg)"}}>
-                <p className="text-4xl leading-none h-min text-white tracking-widest">{titleOfSection}</p>
+                <p className="text-4xl leading-none h-min text-white tracking-widest underline decoration-orange-500">{titleOfSection}</p>
             </article>
         </section>
     )
