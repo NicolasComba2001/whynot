@@ -3,11 +3,11 @@ import frontPageImg from '../../all-images/image-of-frontPage/frontPageImg.jpg';
 
 export function FrontPage(){
     return(
-        <section>
+        <section className='w-full'>
 
             {/* menu */}
 
-            <section className='grid grid-cols-autoFit md:place-items-none place-items-center gap-8 h-screen  w-[90%] m-auto'>
+            <section className='grid grid-cols-autoFit md:place-items-none place-items-center gap-8 h-screen'>
 
                 <section className='h-[65%] w-full'>
                     <article>
