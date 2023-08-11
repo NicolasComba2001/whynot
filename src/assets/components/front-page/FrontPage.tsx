@@ -18,15 +18,7 @@ export function FrontPage(){
                     </article>
                     <button className='bg-[#ceb89e] mt-8 p-4 rounded-md text-base normal-family-font float-right'>Conoce nuestra marca</button>
                 </section>
-                <figure style={{
-                    backgroundImage: `url(${frontPageImg})`,
-                    backgroundPosition: "right",
-                    backgroundRepeat: "no-repeat",
-                    width: "100%",
-                    height: "100%",
-                    backgroundSize: 'contain'
-                }}>
-                    {/* <img src={frontPageImg} className='w-full h-full' alt="hombre modelando una remera, negra lisa." /> */}
+                <figure className='bg-no-repeat bg-right w-full h-full bg-contain' style={{backgroundImage: `url(${frontPageImg})`}}>
                 </figure>
 
             </section>
