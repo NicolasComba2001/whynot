@@ -12,9 +12,10 @@ export default function Section({titleOfSection, imageOfSection}: PropType){
             backgroundSize: "cover",
             backgroundPosition: "center",
             position: "relative",
-            borderRadius: '8px'
+            borderRadius: '8px',
+            filter: 'grayscale(1)'
         }}>
-            <article style={{position: "absolute", bottom: "150px", right: "-50px", transform: "rotate(-90deg)"}}>
+            <article style={{position: "absolute", bottom: "5%"}}>
                 <p className="text-4xl leading-none h-min text-white tracking-widest underline decoration-orange-500">{titleOfSection}</p>
             </article>
         </section>
