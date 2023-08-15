@@ -5,11 +5,15 @@ import SectionProductList from './assets/components/section-product-list/Section
 function App() {
 
   return (
-    <section className='w-[80%] m-auto'>
-      <FrontPage />
-      <SectionList />
-      <SectionProductList />
-      <SectionOfInfo />
+    <section>
+      <section className='w-[80%] m-auto'>
+        <FrontPage />
+        <SectionList />
+        <SectionProductList />
+      </section>
+      <section className='w-full bg-[#1a1a1a] mt-20'>
+        <SectionOfInfo />
+      </section>
     </section>
   )
 }

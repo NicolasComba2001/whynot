@@ -8,9 +8,9 @@ interface PropType {
 
 export default function Product({image, title, price}: PropType){
     return(
-        <article className="h-[450px] flex flex-col p-4">
-            <img src={image} alt={title} className="h-[90%] object-cover rounded" />
-            <article className="p-4 bg-white">
+        <article className=" h-[400px] flex flex-col rounded shadow-[0px_10px_7px_0px_rgba(0,0,0,0.50)]">
+            <img src={image} alt={title} className="object-cover rounded h-[80%]" />
+            <article className="p-4 bg-white rounded h-[20%]">
                 <div className='flex justify-between'>
                     <span>{title}</span>
                     <button><AddShoppingCartOutlinedIcon /></button>
