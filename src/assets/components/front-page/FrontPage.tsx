@@ -1,7 +1,7 @@
 import frontPageImg from '../../all-images/image-of-frontPage/frontPageImg.jpg';
 
 
-export function FrontPage(){
+export default function FrontPage(){
     return(
         <section className='w-full'>
 
