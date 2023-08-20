@@ -16,7 +16,7 @@ export default function Section({titleOfSection, imageOfSection}: PropType){
             filter: 'grayscale(1)'
         }}>
             <article style={{position: "absolute", bottom: "5%"}}>
-                <p className="text-4xl leading-none h-min text-white tracking-widest underline decoration-orange-500">{titleOfSection}</p>
+                <p className="text-4xl leading-none h-min text-white tracking-widest underline decoration-orange-500 ml-4">{titleOfSection}</p>
             </article>
         </section>
     )
