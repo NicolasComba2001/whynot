@@ -7,7 +7,7 @@ export default function Section({titleOfSection, imageOfSection}: PropType){
         <section style={{
             backgroundImage: `url('${imageOfSection}')`,
             width: "100%",
-            height: "700px",
+            height: "90vh",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
