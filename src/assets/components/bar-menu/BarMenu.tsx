@@ -1,7 +1,7 @@
 
 export function BarMenu(){
     return(
-        <header className="absolute w-[inherit] grid grid-cols-2 top-0">
+        <header className="absolute w-full grid grid-cols-2 top-0">
 
             <article className="flex m-4 items-center">
                 <div className="p-2 text-white bg-black normal-family-font">W</div>
