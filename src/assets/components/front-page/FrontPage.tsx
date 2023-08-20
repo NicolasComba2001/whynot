@@ -2,7 +2,7 @@ import frontPageImg from '../../all-images/image-of-frontPage/frontPageImg.jpg';
 import { BarMenu } from '../bar-menu/BarMenu';
 
 
-export function FrontPage(){
+export default function FrontPage(){
     return(
         <section className='relative w-full'>
 
