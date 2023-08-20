@@ -1,13 +1,14 @@
 import frontPageImg from '../../all-images/image-of-frontPage/frontPageImg.jpg';
+import { BarMenu } from '../bar-menu/BarMenu';
 
 
 export function FrontPage(){
     return(
-        <section className='w-full'>
+        <section className='relative w-full'>
 
-            {/* menu */}
 
             <section className='grid grid-cols-autoFit md:place-items-none place-items-center gap-8 h-screen'>
+            <BarMenu />
 
                 <section className='h-[65%] w-full'>
                     <article>
