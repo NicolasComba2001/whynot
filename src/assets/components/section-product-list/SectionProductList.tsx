@@ -65,15 +65,15 @@ export default function SectionProductList(){
     return(
         <ShareSectionProductList>
              <>
-                <article className="mb-8">
-                    <h1 className="text-7xl leading-snug">ROPA DE CALIDAD Y LA MEJOR</h1>
-                    <section className=" p-4 flex justify-between align-items-center">
+                <article className="mb-8 p-2">
+                    <h1 className="text-4xl leading-snug">ROPA DE CALIDAD Y LA MEJOR</h1>
+                    <section className=" p-4 flex flex-col justify-between align-items-center">
                         <article>
                             <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque sit temporibus quaerat! Tempore, quaerat. Voluptate beatae eum ea ratione?</p>
                             <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
                             <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </article>
-                        <button className="self-start bg-orange-400 p-2 rounded">VER TODO <WavingHandOutlinedIcon /> </button>
+                        <button className="self-start bg-orange-400 mt-2 p-2 rounded">VER TODO <WavingHandOutlinedIcon /> </button>
                     </section>
                 </article>
                 <ProductList dataOfProducts={_DATA}/>

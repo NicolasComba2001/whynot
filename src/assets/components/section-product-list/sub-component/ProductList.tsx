@@ -9,7 +9,7 @@ interface PropProductList {
 
 export default function ProductList({dataOfProducts}: any) {
   return (
-    <section className="grid grid-cols-autoFit gap-12 ">
+    <section className="grid grid-cols-autoFit gap-12 p-2">
       {dataOfProducts?.map(({id, title, image, price}: PropProductList) => (
         <Product
           key={id}

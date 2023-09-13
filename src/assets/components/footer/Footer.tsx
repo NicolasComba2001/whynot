@@ -5,9 +5,9 @@ import {  } from 'react-router-dom';
 
 export default function Footer(){
     return(
-    <footer className="mt-12 bg-[#1a1a1a] h-[340px]">
-        <section className="flex w-[80%] m-auto p-8 h-full items-center">
-            <article className="w-2/4 flex justify-between flex-col">
+    <footer className="mt-12 bg-[#1a1a1a] max-h-max w">
+        <section className="flex flex-col m-auto p-8 h-full lg:w-[80%]">
+            <article className="w-full flex flex-col">
                 <div></div>
                 <p className="normal-family-font text-white w-2/4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, cum!</p>
                 <article className='mt-8'>
@@ -22,9 +22,9 @@ export default function Footer(){
                     </a>
                 </article>
             </article>
-            <section className="flex w-2/4 items-center">
 
-               <section className="flex justify-around flex-wrap items-center w-full">
+            <section className='mt-8'>
+               <section className="grid grid-cols-autoFit gap-4 w-full">
 
                 <article>
                         <strong className="text-white tracking-wider underline   font-normal">Categorias</strong>
@@ -99,6 +99,7 @@ export default function Footer(){
 
                </section>
             </section>
+
         </section>
     </footer>
     )

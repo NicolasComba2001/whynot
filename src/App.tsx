@@ -8,13 +8,13 @@ function App() {
 
   return (
     <>
-      <section className='w-[80%] m-auto'>
+      <section className='w-full m-auto lg:w-[80%]'>
         <FrontPage />
         <SectionList />
         <SectionProductList />
       </section>
         <SectionOfInfo />
-      <section  className='w-[80%] m-auto'>
+      <section  className='w-full m-auto lg:w-[80%]'>
         <SectionMostSold />
       </section>
       <Footer />
