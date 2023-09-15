@@ -36,8 +36,8 @@ export default function SectionMostSold(){
     return(
         <ShareSectionProductList>
                 <article className="mb-8 p-4">
-                    <h1 className="text-4xl leading-snug text-right">ROPA DE FERIA</h1>
-                    <article className="mt-2 mb-2">
+                    <h1 className="text-4xl leading-snug xl:text-7xl">ROPA DE FERIA</h1>
+                    <article className="mt-4 mb-2">
                       <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque sit temporibus quaerat! Tempore, quaerat. Voluptate beatae eum ea ratione?</p>
                       <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
                       <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

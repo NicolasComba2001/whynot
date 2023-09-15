@@ -66,7 +66,7 @@ export default function SectionProductList(){
         <ShareSectionProductList>
              <>
                 <article className="mb-8 p-2">
-                    <h1 className="text-4xl leading-snug">ROPA DE CALIDAD Y LA MEJOR</h1>
+                    <h1 className="text-4xl leading-snug xl:text-7xl">ROPA DE CALIDAD Y LA MEJOR</h1>
                     <section className=" p-4 flex flex-col justify-between align-items-center">
                         <article>
                             <p className="normal-family-font font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque sit temporibus quaerat! Tempore, quaerat. Voluptate beatae eum ea ratione?</p>
