@@ -4,6 +4,8 @@ import SectionList from './assets/components/section-list/SectionList'
 import SectionMostSold from './assets/components/section-most-sold/SectionMostSold'
 import SectionOfInfo from './assets/components/section-of-info/SectionOfInfo'
 import SectionProductList from './assets/components/section-product-list/SectionProductList'
+import SectionNewProduct from './assets/components/section-new-product/SectionNewProduct'
+
 function App() {
 
   return (
@@ -14,9 +16,10 @@ function App() {
         <SectionProductList />
       </section>
         <SectionOfInfo />
-      <section  className='w-full m-auto lg:w-[80%]'>
+      <section className='w-full m-auto lg:w-[80%]'>
         <SectionMostSold />
       </section>
+        <SectionNewProduct />
       <Footer />
     </>
   )
