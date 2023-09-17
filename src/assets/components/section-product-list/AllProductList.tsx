@@ -65,6 +65,7 @@ const _DATA = [
 export default function AllProductList(){
     return(
       <>
+      {/* esta seccion debe de ir en una ruta aparte se abre cuando seleccionas ver todo */}
         <section className="w-full relative m-auto lg:w-[80%]">
             {/* <BarMenu /> */}
             <h2 className="text-4xl text-center bolder p-4">TODOS LOS PRODUCTOS</h2>
