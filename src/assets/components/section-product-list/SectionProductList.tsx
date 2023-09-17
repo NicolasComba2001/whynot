@@ -64,7 +64,6 @@ const _DATA = [
 export default function SectionProductList(){
     return(
         <ShareSectionProductList>
-             <>
                 <article className="mb-8 p-2 relative overflow-hidden">
                     <svg className="absolute right-[-40%] bottom-[-10%] w-full h-full " viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                       <path className="w-full h-full" fill="#fb923c" d="M47.9,-46.2C55,-29.4,48.5,-9.9,44.5,11.2C40.6,32.4,39.1,55.2,25.8,66.5C12.6,77.8,-12.3,77.6,-33.4,68C-54.5,58.4,-71.6,39.3,-75.7,18.2C-79.8,-2.9,-70.9,-26.2,-56.1,-44.7C-41.3,-63.3,-20.6,-77.2,-0.1,-77.2C20.5,-77.1,40.9,-63,47.9,-46.2Z" transform="translate(100 100)" />
@@ -85,7 +84,6 @@ export default function SectionProductList(){
                     </section>
                 </article>
                 <ProductList dataOfProducts={_DATA}/>
-             </>
         </ShareSectionProductList>
     )
 }

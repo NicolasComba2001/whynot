@@ -5,21 +5,24 @@ import SectionMostSold from './assets/components/section-most-sold/SectionMostSo
 import SectionOfInfo from './assets/components/section-of-info/SectionOfInfo'
 import SectionProductList from './assets/components/section-product-list/SectionProductList'
 import SectionNewProduct from './assets/components/section-new-product/SectionNewProduct'
+import Share from './assets/components/Share'
+import AllProductList from './assets/components/section-product-list/AllProductList'
 
 function App() {
 
   return (
     <>
-      <section className='w-full m-auto lg:w-[80%]'>
+      <Share>
         <FrontPage />
         <SectionList />
         <SectionProductList />
-      </section>
+      </Share>
         <SectionOfInfo />
-      <section className='w-full m-auto lg:w-[80%]'>
+      <Share>
         <SectionMostSold />
-      </section>
+      </Share>
         <SectionNewProduct />
+        <AllProductList />
       <Footer />
     </>
   )

@@ -15,7 +15,7 @@ export default function Product({image, title, price}: PropType){
             <article className="p-4 bg-white rounded">
                 <div className='flex justify-between'>
                     <span>{title}</span>
-                    <button className='p-1 border-b-2 border-orange-400 rounded'><AddShoppingCartOutlinedIcon /></button>
+                    <button className='p-1 border-b-2 border-orange-400 rounded cursor-pointer'><AddShoppingCartOutlinedIcon /></button>
                 </div>
                 <strong className="mt-2 block normal-family-font font-light">$ {price}</strong>
             </article>
